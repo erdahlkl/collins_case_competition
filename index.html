@@ -5,116 +5,96 @@
 		<meta name="description" content="Suzanne Collins Home Page">
 	    <meta name="author" content="Katherine Erdahl">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Suzanne Collins Home Page</title>
+		<title>Suzanne Collins Home</title>
 
 		<!-- Bootstrap v5.0.0-beta3 -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 		<link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
-
-  
+        
 	<body>
         <div class="container">
             
-            <nav class="row"style="background-image:url(images/background.png); 
+            <header class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <a href="index.html"><img src="images/logo.png" alt="Suzanne Collins handwritten signature sitting on a gold arrow pointing to the right"></a>
+                    </div><!-- end logo --> 
+                   
+                    <div class="col-sm-12 col-md-8" id="nav_bar">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li><!-- end home --> 
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about.html" role="button" aria-expanded="false">About</a>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="about.html">Suzanne Collins</a></li>
+                                        <li><a class="dropdown-item" href="interview.html">Interview</a></li>
+                                    </ul>
+                            </li><!-- end about -->
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="books.html" role="button" aria-expanded="false">Books</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="books.html">All Books</a></li>
+                                        <li><a class="dropdown-item" href="books.html#item-1">The Hunger Games Series</a></li>
+                                        <li><a class="dropdown-item" href="books.html#item-2">The Underland Chronicles</a></li>
+                                        <li><a class="dropdown-item" href="books.html#item-3">Picture Books</a></li>
+                                    </ul>
+                            </li><!-- end books --> 
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Recognitions</a>
+                            </li><!-- end recognitions --> 
+                            
+                        </ul>
+                    </div><!-- end div col-md-12 --> 
+
+                </header><!-- end row header --> 
+            
+            
+            <nav class="row" style="background-image:url(images/background.png); 
                   background-size: cover; height:100vh; padding-top:80px;"><!--end background image--> 
                 
-                <div class="col-sm-12 col-md-4">
-                    <img src="images/logo-removebg-preview.png" alt="Suzanne Collins handwritten signature sitting on a gold arrow pointing to the right">
-                </div><!-- end logo --> 
-                   
-                <div class="col-sm-12 col-md-8">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
-                        </li><!-- end home --> 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html" role="button" aria-expanded="false">About Me</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="index.html">Suzanne Collins</a></li>
-                                    <li><a class="dropdown-item" href="index.html">Interview</a></li>
-                                </ul>
-                        </li><!-- end about --> 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="works.html" role="button" aria-expanded="false">Books</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="works.html">The Hunger Games Series</a></li>
-                                    <li><a class="dropdown-item" href="works.html">The Underland Chronicles</a></li>
-                                    <li><a class="dropdown-item" href="works.html">Picture Books</a></li>
-                                </ul>
-                        </li><!-- end books --> 
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Recognitions</a>
-                        </li><!-- end recognitions --> 
-                         </ul>
-                    </div><!-- end div col-md-12 --> 
-                
                 <div class="col-sm-12 col-md-8" id="header">
-                    <h1>The Ballad of Songbirgs and Snakes</h1>
-                    <h2>A Prequel to The Hunger Games Trilogy</h2>
-                    <a href="https://www.barnesandnoble.com/w/the-ballad-of-songbirds-and-snakes-suzanne-collins/1133952083?ean=9781338674453" target="_blank"><button type="button" class="btn btn-danger">Read Now</button></a>
+                    <h1><b>The Ballad of<br>Songbirds and Snakes</b></h1>
+                    <h2><i>A Prequel to The Hunger Games Trilogy</i></h2>
+                    <a href="https://www.barnesandnoble.com/w/the-ballad-of-songbirds-and-snakes-suzanne-collins/1133952083?ean=9781338674453" class="btn btn-danger" id="read_now" target="_blank">Read Now</a>
+                    
                 </div><!-- end ballad image -->
                 
                 <div class="col-sm-12 col-md-4">
-                    <img src="images/ballad_songbirds.png">
+                    <a href="https://www.barnesandnoble.com/w/the-ballad-of-songbirds-and-snakes-suzanne-collins/1133952083?ean=9781338674453" target="_blank"><img src="images/ballad_songbirds.png" alt="image of The Ballad of Songbirds and Snakes book cover"></a>
                 </div><!-- end header text -->
                 
             </nav><!-- end row nav --> 
             
 
-            <div class="row" style="background-color:black" id="2header">
-                <div class="col-sm-12 col-md-4">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                      <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                      </div><!-- end buttons --> 
-
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="images/reviews/people.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="images/reviews/p_weekly.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="images/reviews/school_journal.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="images/reviews/ent_review.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="images/reviews/associated_press.png" class="d-block w-100" alt="...">
-                        </div>
-                      </div>
-                        
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
-                    </div><!-- end carousel -->
-                </div><!-- end div col-md-6 -->
-                
-                <div class="col-sm-12 col-md-8" >
-                    <div class="card mb-3" style="max-width: 640px;">
+            <div class="row">
+                <div class="col-sm-12 col-md-12" >
+                    <div class="card mb-3" style="max-width: 1300px;">
                       <div class="row g-0">
-                        <div class="col-md-4">
-                          <img src="images/sc_hd_1.jpg" class="img-fluid rounded-start" alt="Headshot of Suzanne Collins sitting down with a green shirt on with a bookcase in the ground">
+                        <div class="col-md-3">
+                          <img src="images/sc_rat_2.jpg" class="img-fluid rounded-start" alt="Headshot of Suzanne Collins sitting down with a green shirt on with a bookcase in the ground">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-9">
                           <div class="card-body">
-                            <h5 class="card-title">Welcome</h5>
-                            <h4>Hi! Thanks for visiting my website.</h4>
-                            <p class="card-text">In 1991, Suzanne Collins began her professional career writing for children's television. She worked on the staffs of several Nickelodeon shows, including the Emmy-nominated hit Clarissa Explains it All and The Mystery Files of Shelby Woo. For preschool viewers, she penned multiple stories for the Emmy-nominated...</p>
-                            <button type="button" class="btn btn-danger">Continute Reading</button>
+                            <h5 class="card-title"><b>Welcome! Thanks for visiting my website.</b></h5>
+                            <p>Here’s a picture of me with a rat in Central Park. If you’ve read my fantasy series, The Underland Chronicles, you will have a clue as to why I chose this photo. If not, you may want to click around and find out a little more about my books. Or visit the <a href="https://www.scholastic.com/underlandchronicles/index.html" target="_blank">Scholastic website for cool games and info!</a></p>
+                            <p>In 1991, Suzanne Collins began her professional career writing for children's television. She worked on the staffs of several Nickelodeon shows, including the Emmy-nominated hit Clarissa Explains it All and The Mystery Files of Shelby Woo. For preschool viewers, she penned multiple stories for the Emmy-nominated...
+                            <button type="button" class="btn btn-primary btn-sm">Continue Reading</button></p>
                           </div>
                         </div>
                       </div>
@@ -123,41 +103,92 @@
             
             </div><!-- end div class="row" carousal and about card -->
             
-            <div class="card-group" style="background-color: black">
+            
+           <div class="card-group" id="card" >
               <div class="card">
-                <img src="images/hunger_games.png" class="card-img-top" alt="The Hunger Games Book 1 Cover">
+                <img src="images/hg_series.png" class="card-img-top" alt="image of The Hunger Games book, Cathing Fire, and Mockingjay">
                 <div class="card-body">
-                  <h5 class="card-title">The Hunger Games Series</h5>
-                  <p class="card-text">The thrilling trilogy expertly described by Suzanne Collins. You enter a future world where every year two tributes from each district are thrown into an arena expected to fight to the death or get knocked out by other means. Only one can survive.</p>
-                <button type="button" class="btn btn-danger">Read Series</button>
+                    <h6 class="card-title"><br><i><b>The Hunger Games</b></i></h6>
+                    <p class="card-text">In what was once North America, the Capitol of Panem maintains its hold on its 12 districts by forcing them each to select a boy and a girl, called Tributes, to compete in a nationally televised event called the Hunger Games. Every citizen must watch as the youths fight to the death until only one remains. District 12 Tribute Katniss Everdeen has little to rely on, other than her hunting skills and sharp instincts, in an arena where she must weigh survival against love.</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                      <a href="books.html#item-1" class="btn btn-primary" target="_blank">Read Now</a>
                 </div>
-              </div><!-- end hunger games  -->
-              <div class="card">
-                <img src="images/gregor_overlander.jpg" class="card-img-top" alt="...">
+              </div><!--end card brownie -->
+              
+             <div class="card">
+                <img src="images/uc_series.png" class="card-img-top" alt="image of the 5 Underland Chronicles books lined up next to each other">
                 <div class="card-body">
-                  <h5 class="card-title">The Underland Chronicles</h5>
-                  <p class="card-text">When Gregor follows his little sister through a grate in the laundry room of their New York apartment building, he hurtles into the dark Underland beneath the city. There, a conflict is brewing between the humans and the giant creatures that live below. Gregor must find his place in the frightening prophecies he encounters, the strength to protect his family, and the courage to stand up against an army of giant rats.</p>
-                <button type="button" class="btn btn-danger">Read Series</button>
+                  <h6 class="card-title"><br><i><b>The Underland Chronicles</b></i></h6>
+                  <p class="card-text">The Chronicles begins as Gregor and his younger sister Boots dive into the depths of the underground New York. It's up to the siblings to save the world — filled with rodents, insects, and menacing rats — from destruction. Their adventures through Underland unfold as they battle evil enemies, form alliances, and learn that their father has mysteriously disappeared. As a leader in the unknown realm, Gregor must rise up and face difficult missions while discovering his inner strength.</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                      <a href="books.html#item-2" class="btn btn-primary" target="_blank">Read Now</a>
                 </div>
-              </div><!-- end gregor -->
-              <div class="card">
-                <img src="images/charlie_mcbutton.jpg" class="card-img-top" alt="...">
+              </div><!--end card underland -->
+               
+            <div class="card">
+                <img src="images/year_jungle.png" class="card-img-top" alt="front of the book 'year of the jungle'">
                 <div class="card-body">
-                  <h5 class="card-title">Picture Books</h5>
-                  <p class="card-text">Charlie McButton likes computer games so much, he never plays with anything else. When a thunderstorm knocks out the electricity, his tech empire comes tumbling down, and his whole world loses power.</p>
-                <button type="button" class="btn btn-danger">Read Series</button>
+                  <h6 class="card-title"><br><i><b>Year of the Jungle</b></i></h6>
+                  <p class="card-text">A deeply moving autobiographical picture book about a father who must go off to the war in Vietnam—and the daughter that stays behind. When young Suzy's father leaves for Vietnam, she struggles to understand what this means for her and her family.</p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                      <a href="books.html#item-3-2" class="btn btn-primary" target="_blank">Read Now</a>
                 </div>
-              </div><!-- end picture books -->
-            </div><!-- end 3 card group -->
+              </div><!--end card jungle -->
+              
+             <div class="card">
+                <img src="images/charlie_book.png" class="card-img-top" alt="book cover of 'when charlie mcbutton lost power' in front of the back of the book">
+                <div class="card-body">
+                  <h6 class="card-title"><br><i><b>When Charlie McButton Lost Power</b></i></h6>
+                  <p class="card-text">An electifying picture book from the author of The Hunger Games. Charlie McButton likes computer games so much, he never plays with anything else. When a thunderstorm knocks out the electricity, his tech empire comes tumbling down, and his whole world loses power.</p>
+                </div>
+                <div class="card-footer">
+                      <a href="books.html#item-3-1" class="btn btn-primary" target="_blank">Read Now</a>
+                </div>
+              </div><!--end card charlie -->
+               
+            
+            </div><!--end card group -->
+            
+            
+            
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" >
+                <div class="carousel-item active">
+                  <img src="images/reviews_one.png" class="d-block w-100" alt="three reviews from Publishers Weekly, Entertainment Weekly Review, and The Washington Post">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/reviews_two.png" class="d-block w-100" alt="three reviews from The Associated Press, People, and School Library Journal">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div><!-- end review carousel -->
+            
+            
+            
+             <footer class="row">
+                
+                    <div class="col-sm-12 col-md-8">
+                        <a href="index.html"><img src="images/logo.png" alt="Suzanne Collins handwritten signature sitting on a gold arrow pointing to the right"></a>
+                    </div><!-- end logo --> 
+                
+                    <div class="col-sm-12 col-md-4">
+                        <p>Erdahl 2021 | Project for JMU SMAD 404<br>
+                        All images from Google Images or from <a href="https://www.suzannecollinsbooks.com/" target="_blank">Suzanne Collins</a></p>
+                    </div>
+
+            </footer><!-- end footer --> 
+            
         
         </div><!-- end div class="container" -->
 	</body>
